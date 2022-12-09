@@ -1,0 +1,11 @@
+#nav-menu, .top-bar ul, .title-bar {
+    background: #4DBB83;
+}
+
+.top-bar li a {
+    color: #fff;
+}
+
+.title-bar {
+    justify-content: flex-end;
+}
