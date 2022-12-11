@@ -1,55 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <!-- Compressed CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" crossorigin="anonymous">
     <title>Study Soup</title>
-  </head>
-  <body>
-<!-- This demo uses float grid but you can use flex grid too -->
-<nav class="top-bar" class="top-bar-left">
- <a>StudySoup</a>
-<div class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="medium">
-<div class="title-bar-title">Menu</div>
-<button class="menu-icon" type="button" data-toggle="nav-menu"></button>
-</div>
+</head>
+<body>
 
-<div id="nav-menu">
-  <div>
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li>
-        <a href="#0">Study Guides</a>
-      </li>
-      <li><a href="#0">Homework Help</a></li>
-      <li><a href="#0">Textbook Solutions</a></li>
-      <li><a href="#0">Notetakers</a></li>
-    </ul>
-  </div>
-  <div class="top-bar-right">
-    <ul class="menu">
-      <li><a href="#0">Login</a></li>
-      <li><a href="#0">Sign Up</a></li>
-    </ul>
-  </div>
-</div>
+<nav class="top-bar top-bar-left">
+
+    <a href="/">
+        <img src="/logo.svg" width="25" height="25"/>
+        StudySoup
+    </a>
+    <div class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="large">
+        <button class="menu-icon" type="button" data-toggle="nav-menu"></button>
+    </div>
+
+    <div id="nav-menu">
+        <ul class="menu grid-x">
+            <li><a href="/">Study Guides</a></li>
+            <li><a href="/">Homework Help</a></li>
+            <li><a href="/">Textbook Solutions</a></li>
+            <li><a href="/">Notetakers</a></li>
+            <li><a href="/">Login</a></li>
+            <li><a href="/">Sign Up</a></li>
+        </ul>
+    </div>
+
 </nav>
 
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js"
+        crossorigin="anonymous"></script>
 
-
-
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-
-        <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
-
-     <script>
-      $(document).foundation();
-    </script>
-    <script type="module" src="/main.js"></script>
-  </body>
+<script>
+    $(document).foundation();
+</script>
+<script type="module" src="/main.js"></script>
+</body>
 </html>

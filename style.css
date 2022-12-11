@@ -1,8 +1,8 @@
-#nav-menu, .top-bar ul, .title-bar {
+#nav-menu, .top-bar, .top-bar ul, .title-bar {
     background: #4DBB83;
 }
 
-.top-bar li a {
+.top-bar a {
     color: #fff;
 }
 
