@@ -9,3 +9,189 @@
 .title-bar {
     justify-content: flex-end;
 }
+
+#marketplace_banner {
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+#marketplace_banner h1 {
+    color: #fff;
+    padding: 5rem;
+}
+
+
+.product-filters {
+    padding: 0rem 1.5rem;
+    background-color: #fefefe;
+}
+
+.product-filters label {
+    color: #8a8a8a;
+}
+
+.product-filters .menu.nested {
+    margin-left: 0rem;
+    margin-bottom: 0.9rem;
+}
+
+.product-filters .menu > li > a {
+    padding-left: 0;
+    color: #4a4a4a;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.product-filters .is-accordion-submenu-parent > a::after {
+    border-color: #cacaca transparent transparent;
+}
+
+.product-filters .clear-all {
+    font-size: 0.9rem;
+    color: #cacaca;
+}
+
+.product-filters .more {
+    color: #1779ba;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.product-filters-header {
+    font-size: 1.25rem;
+    padding-top: 0.5rem;
+}
+
+.product-filters-tab {
+    border-top: 1px solid #e6e6e6;
+}
+
+.mobile-product-filters {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.grid-container li {
+    list-style: none;
+}
+
+.material-card {
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+}
+
+.material-card span {
+    color: #4a4a4a;
+}
+
+.material-card img {
+    width: 30%;
+    margin-right: 0.5rem;
+}
+
+.material-card .card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.more-information {
+    width: 100%;
+    background-color: #1779ba;
+    color: #fefefe;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card-title {
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+.helper-text {
+    margin: 1rem;
+    max-width: 80%;
+    margin-left: 2rem;
+}
+
+
+.pagination-pointed .pagination-pointed-button, .pagination-pointed .current, .pagination-pointed .pagination-previous {
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #2c3840;
+    color: #fff;
+    outline: 0;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.pagination-pointed .pagination-pointed-button:hover, .pagination-pointed .current:hover, .pagination-pointed .pagination-previous:hover {
+    background-color: #41525e;
+}
+
+.pagination-pointed .current {
+    background: dodgerblue;
+}
+
+.pagination-pointed .current:hover {
+    background-color: #0077ea;
+}
+
+.pagination-pointed .pagination-next a {
+    border-radius: 4px 0 0 4px;
+    margin-right: 18px;
+}
+
+.pagination-pointed .pagination-next a:hover::after {
+    border-left: 17px solid #41525e;
+}
+
+.pagination-pointed .pagination-next a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -18px;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 17px solid #2c3840;
+    transition: all 0.2s linear;
+}
+
+.pagination-pointed .pagination-previous {
+    border-radius: 0 4px 4px 0;
+    margin-left: 18px;
+}
+
+.pagination-pointed .pagination-previous:hover::after {
+    border-right: 17px solid #41525e;
+}
+
+.pagination-pointed .pagination-previous::before {
+    content: "";
+}
+
+.pagination-pointed .pagination-previous::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -18px;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid transparent;
+    border-top: 17px solid transparent;
+    border-right: 17px solid #2c3840;
+    transition: all 0.2s linear;
+}
+
